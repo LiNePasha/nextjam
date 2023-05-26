@@ -3,7 +3,7 @@ const isLocalhost = typeof window !== 'undefined' && window.location.host === 'l
 module.exports = {
   backend: isLocalhost ? { name: 'test-repo' } : {
     name: 'git-gateway',
-    branch: 'master'
+    branch: 'main'
   },
   load_config_file: false,
   media_folder: 'public/img',
